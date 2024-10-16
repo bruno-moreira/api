@@ -1,0 +1,36 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "start:dev": "tsx --watch src/index.ts",
+    "build": "rimraf dist && src/index.ts --format cjs,esm --dts --minify"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "postgres",
+    "drizzle",
+    "api"
+  ],
+  "author": "Bruno Moreira",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "drizzle-orm": "^0.35.1",
+    "express": "^4.21.1",
+    "pg": "^8.13.0",
+    "rimraf": "^6.0.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.26.2",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
