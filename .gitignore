@@ -1,0 +1,25 @@
+node_modules# Dependências do Node.js
+node_modules/
+
+# Ficheiros de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios de build e cache
+dist/
+build/
+.cache/
+
+# Variáveis de ambiente (configuração sensível)
+.env
+
+# Ficheiros de sistema (ex: macOS)
+.DS_Store
+
+# Logs do sistema operacional
+*.log
+
+# Configuração local do editor
+.idea/
+.vscode/
