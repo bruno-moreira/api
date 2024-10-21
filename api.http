@@ -22,3 +22,15 @@ Content-Type: {{contentType}}
 ###
 GET {{baseUrl}}/todos
 Content-Type: {{contentType}}
+
+###
+GET {{baseUrl}}/todos/123
+Content-Type: {{contentType}}
+
+###
+PATCH  {{baseUrl}}/todos/123
+Content-Type: {{contentType}}
+
+###
+DELETE {{baseUrl}}/todos/123
+Content-Type: {{contentType}}
