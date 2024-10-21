@@ -18,7 +18,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "drizzle-orm": "^0.35.1",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.35.2",
     "express": "^4.21.1",
     "pg": "^8.13.0",
     "rimraf": "^6.0.1"

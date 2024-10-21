@@ -1,3 +1,5 @@
+import "dotenv/config";
+
 import express, { Request, Response} from 'express';;
 import { createServer } from 'http';
 
@@ -37,7 +39,7 @@ app.delete("/api/v1/todos/:id", (req: Request, res: Response) => {
 
 const server = createServer(app);
 
-const port = 8080;
+const port = process.env.PORT ?? 8080;
 server.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 })
