@@ -24,13 +24,17 @@ GET {{baseUrl}}/todos
 Content-Type: {{contentType}}
 
 ###
-GET {{baseUrl}}/todos/123
+GET {{baseUrl}}/todos/d25ede55-9dc1-4feb-92cb-e698419656ee
 Content-Type: {{contentType}}
 
 ###
-PATCH  {{baseUrl}}/todos/123
+PATCH  {{baseUrl}}/todos/d25ede55-9dc1-4feb-92cb-e698419656ee
 Content-Type: {{contentType}}
 
+{
+    "isDone": true
+}
+
 ###
-DELETE {{baseUrl}}/todos/123
+DELETE {{baseUrl}}/todos/d25ede55-9dc1-4feb-92cb-e698419656ee
 Content-Type: {{contentType}}
